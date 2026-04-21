@@ -1,0 +1,21 @@
+# Electromechanical Case - Observer Design
+
+This folder contains the implementation of observer design for electromechanical port-Hamiltonian systems.
+
+The code "ElectromechCode.m" defines the constant and gain scheduled procedure, considering the procedure
+defined in the thesis.
+
+The folder "linearized_electromech_observer" contains the Simulink scheme linked to the linearized version 
+of the observer, before launching the Simulink simulation run the code "Init_Simulink_param_lin_Electromech.m".
+It is possible to change the value of the observer gain directly inside the Simulink scheme.
+Additional note: the linearization of the mechanical model is not proposed since it has been followed the flow 
+given by the paper of Spirito, in which only the Electromechanical case fits one of the two classes of systems
+
+
+## Contents
+
+- MATLAB/Simulink simulation files
+
+- Observer implementation code
+
+- Test cases and validation results
